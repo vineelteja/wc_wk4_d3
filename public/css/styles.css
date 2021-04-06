@@ -1,0 +1,188 @@
+/* Nesting */
+/* SCSS */
+/* line 8, public/scss/nav.scss */
+nav {
+  font-size: 1em;
+  font-font-weight: bold;
+  float: left; }
+  /* line 14, public/scss/nav.scss */
+  nav ul {
+    list-style-type: none; }
+    /* line 16, public/scss/nav.scss */
+    nav ul li {
+      float: left;
+      margin: 0 5px 0 0;
+      color: white; }
+      /* line 20, public/scss/nav.scss */
+      nav ul li a {
+        text-decoration: none;
+        color: white; }
+        /* line 22, public/scss/nav.scss */
+        nav ul li a:hover {
+          text-decoration: underline; }
+
+/* css for registration form and errors*/
+/* Styles for listing table */
+/* line 3, public/scss/form.scss */
+body {
+  padding: 40px 10px;
+  background-color: #eee; }
+
+/* line 9, public/scss/form.scss */
+.listing-reg h1 {
+  text-align: center;
+  margin: 0 0 2rem; }
+
+/* line 15, public/scss/form.scss */
+.form-registration {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; }
+  /* line 22, public/scss/form.scss */
+  .form-registration input {
+    width: 100%;
+    margin: 0px 0 10px; }
+  /* line 27, public/scss/form.scss */
+  .form-registration .btn {
+    flex: 1 0 100%; }
+  /* line 31, public/scss/form.scss */
+  .form-registration label {
+    display: inline-block;
+    margin-bottom: .5rem; }
+  /* line 36, public/scss/form.scss */
+  .form-registration .form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out; }
+
+/* line 52, public/scss/form.scss */
+.my-errors {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  color: #333;
+  font-size: 1.2rem;
+  display: table; }
+  /* line 60, public/scss/form.scss */
+  .my-errors li {
+    margin: 0 0 1rem; }
+    /* line 63, public/scss/form.scss */
+    .my-errors li:before {
+      content: "! Error : ";
+      color: #f00;
+      font-weight: bold; }
+
+/* line 71, public/scss/form.scss */
+.listing-table {
+  width: 100%; }
+  /* line 74, public/scss/form.scss */
+  .listing-table th {
+    padding: 10px;
+    border-bottom: 1px solid #666;
+    background: #000;
+    color: #fff; }
+    /* line 80, public/scss/form.scss */
+    .listing-table th:first-child {
+      border-right: 1px solid #666; }
+  /* line 85, public/scss/form.scss */
+  .listing-table td {
+    padding: 10px;
+    border-bottom: 1px solid #666;
+    text-align: center; }
+    /* line 90, public/scss/form.scss */
+    .listing-table td:first-child {
+      border-right: 1px solid #666; }
+
+/* Variables */
+/* line 14, public/scss/styles.scss */
+html {
+  font-size: 1em;
+  width: 100%; }
+
+/* line 20, public/scss/styles.scss */
+body {
+  font-family: Arial, Helvetica, Sans-Serif;
+  background: #daaa0e; }
+
+/* line 25, public/scss/styles.scss */
+header {
+  height: 50px;
+  width: 100%;
+  margin: 0.8em auto 1em auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  /* line 34, public/scss/styles.scss */
+  header span a {
+    color: white;
+    text-decoration: none; }
+
+/* line 41, public/scss/styles.scss */
+main {
+  background: white;
+  width: 97%;
+  min-height: 535px;
+  padding: 1.5%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  /* line 51, public/scss/styles.scss */
+  main[class='admin-container'] {
+    width: auto;
+    min-height: 0;
+    padding: 0; }
+  /* line 57, public/scss/styles.scss */
+  main #intro-image {
+    float: left;
+    width: 800px;
+    text-align: center; }
+    /* line 62, public/scss/styles.scss */
+    main #intro-image img {
+      width: 800px; }
+  /* line 67, public/scss/styles.scss */
+  main #intro-text {
+    width: 550px;
+    height: 407px;
+    float: left;
+    background: #d4d5d8;
+    text-align: center;
+    padding-top: 8em; }
+    /* line 75, public/scss/styles.scss */
+    main #intro-text h3 {
+      font-size: 2em;
+      color: #313130; }
+    /* line 80, public/scss/styles.scss */
+    main #intro-text span {
+      font-family: "Sacramento", cursive;
+      font-size: 2em; }
+
+/* line 87, public/scss/styles.scss */
+footer {
+  width: 1350px;
+  margin: 2em auto;
+  padding-left: 80px;
+  font-size: 0.85em; }
+
+/* line 95, public/scss/styles.scss */
+button, .submit-buttton {
+  color: white;
+  width: 100px;
+  height: 40px;
+  background: #daaa0e;
+  margin-top: 2em; }
+
+/* line 103, public/scss/styles.scss */
+.submit-buttton {
+  border: 1px #313130; }

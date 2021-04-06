@@ -1,0 +1,22 @@
+/* Nesting */
+/* SCSS */
+/* line 8, public/scss/nav.scss */
+nav {
+  font-size: 1em;
+  font-font-weight: bold;
+  float: left; }
+  /* line 14, public/scss/nav.scss */
+  nav ul {
+    list-style-type: none; }
+    /* line 16, public/scss/nav.scss */
+    nav ul li {
+      float: left;
+      margin: 0 5px 0 0;
+      color: white; }
+      /* line 20, public/scss/nav.scss */
+      nav ul li a {
+        text-decoration: none;
+        color: white; }
+        /* line 22, public/scss/nav.scss */
+        nav ul li a:hover {
+          text-decoration: underline; }
